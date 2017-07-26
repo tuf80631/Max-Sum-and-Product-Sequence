@@ -1,2 +1,3 @@
 # Max-Sum-and-Product-Sequence
 Various different programs for sequence algorithms
+Given a sequence of numbers (i.e: 1, 2,-1, 2, 3,-3, 5) find the maximum product subsequence and maximum sum subsequence.Maximum Sum Subsequence = 9. First position would be 1 and last position would be 7.Maximum Product Subsequence = 180. First position would be 1 and last position would be 7.Below is the code to find maximum sum & product subsequence. MSS3 = Product. MSS4 = SUM.The code (MSS4) can calculate the max sum subsequence in complexity O(n) as it only scans over each number one time.The code (MSS3) can calculate the max product subsequence in complexity O(nlogn). MSS3 applies the concepts from the merge sort algorithm.
